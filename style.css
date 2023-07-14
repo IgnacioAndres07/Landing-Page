@@ -49,13 +49,9 @@
 
 }
 
-.card-box-productos {
-    display: flex;
-    flex-direction: column;
-    border: 2px solid #0f15a3;
-    background-color: #a6cc00;
+.col-md-6{
+    width: 40rem;
 }
-
 
 
 /*Sección Productos*/
@@ -251,55 +247,38 @@
 
 /*Contacto*/
 
-.contacto {
-    padding-bottom: 8%;
-
-
-
+.contacto{
 
 
 }
 
 .form__contacto {
     width: 60%;
-    padding: 10px;
-    float: left;
-    padding: 2% 5% 0% 12%;
-    bottom: 20%;
+    padding: 0% 15% 0% 12%;
+    float: right;
+    margin: auto;
 
 
 }
 
 .iframe__contacto {
-    float: left;
-    padding: 2% 20% 0% 12%;
-    width: 30%;
-    background-color: red;
+    width: 40%;
+    padding: 0% 0% 0% 13%;
+    
 
 }
-
-    .iframe__contacto{
-        padding-top: 2% 20% 0% 12%;
-        display: flex;
-        align-items: center;
-        justify-content: center
-        ;
-
-    }
-
-
-
 
 /*Footer*/
 
-.py-5 {
-    padding: 1% 12% 3% 12%;
+.container__footer{
+    background-color: #a6cc00;
+    padding:2% 5% 0% 12% ;
+}
+
+/*.row {
     background-color: #a6cc00;
     color: #0f15a3;
-
-
-
-}
+}*/
 
 
 
@@ -330,8 +309,53 @@
     }
 
     .card-box-servicios {
-        margin: 20px 0px;
+        margin: 18px 0px;
     }
 
+    .nosotros img{
+        width: 18rem;
+        margin:auto;
+    
+
+
+    }
+
+    .carousel-inner{
+        width:min-content;
+        font-size: 1px;
+
+
+    }
+
+    .form__contacto.iframe__contacto{
+        flex-direction: column;
+        display: inline;
+
+
+
+
+}
+
+@media screen and (max-width:500px) {
+
+
+    .carousel-inner{
+        width: fit-content;
+        height: max-content;
+        font-size: 1px;
+    }
+    .nosotros img{
+        width: 18rem;
+        margin:auto;
+    
+
+
+    }
+
+    .form__contacto .iframe__contacto{
+        display: flex;
+
+
+}
 
 }
