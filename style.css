@@ -129,13 +129,6 @@
 }
 
 
-
-
-
-
-
-
-
 .card-title-clientes {
     font-size: 2rem;
     text-align: center;
@@ -257,6 +250,7 @@
     padding: 0% 15% 0% 12%;
     float: right;
     margin: auto;
+    position: relative;
 
 
 }
@@ -264,6 +258,8 @@
 .iframe__contacto {
     width: 40%;
     padding: 0% 0% 0% 13%;
+    float: none;
+    position: relative;
     
 
 }
@@ -274,17 +270,6 @@
     background-color: #a6cc00;
     padding:2% 5% 0% 12% ;
 }
-
-/*.row {
-    background-color: #a6cc00;
-    color: #0f15a3;
-}*/
-
-
-
-
-
-
 
 
 /*Responsive*/
