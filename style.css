@@ -460,13 +460,13 @@
     }
 }
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:390px) {
 
     .carousel-inner {
-        padding-top: 25%;
-        padding-bottom: 5%;
-        margin: 0 10px;
-        width: 600px;
+        padding-top: 23%;
+        padding-bottom: 2%;
+        margin: 0 5px;
+        width: 400px;
         height: 180%;
 
     }
@@ -478,7 +478,7 @@
     }
 
     .nosotros img {
-        width: 10rem;
+        width: 20rem;
 
     }
 
