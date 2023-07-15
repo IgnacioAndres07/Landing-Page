@@ -8,6 +8,7 @@ Tecnologias utilizadas:
 ·CCS
 ·Media Queries
 ·Flex
+·Bootstrap
 
 Herramientas utilizadas:
 ·Git
