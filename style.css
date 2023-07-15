@@ -463,10 +463,10 @@
 
     .carousel-inner {
         padding-top: 23%;
-        padding-bottom: 2%;
-        margin: 0 5px;
+        padding-bottom: 20%;
+        margin: 0 8px;
         width: 400px;
-        height: 180px;
+        height: 290px;
 
     }
 
@@ -478,6 +478,46 @@
 
     .nosotros img {
         width: 20rem;
+
+    }
+
+}
+
+@media screen and (max-width:375px) {
+
+    .carousel-inner {
+        padding-top: 35%;
+        padding-bottom: 20%;
+        margin: 0 8px;
+        width: 400px;
+        height: 325px;
+
+    }
+
+}
+
+@media screen and (max-width:350px) {
+
+    .carousel-inner {
+        padding-top: 40%;
+        padding-bottom: 20%;
+        margin: 0 8px;
+        width: 400px;
+        height: 290px;
+
+    }
+
+}
+
+
+@media screen and (max-width:280px) {
+
+    .carousel-inner {
+        padding-top: 30%;
+        padding-bottom: 20%;
+        margin: 0 8px;
+        width: 400px;
+        height: 290px;
 
     }
 
